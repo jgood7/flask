@@ -1,0 +1,22 @@
+{% block content %}
+<h1>Register</h1>
+<h4>Enter Student Information below</h4>
+<!--Form to request user's name-->
+
+<form action="addStudentOrganisation" method="post">Enter First Name
+    <input type="text" name="name" value="" />
+    Select Organisation
+    <select id="org" name = 'org'>
+        <option value="Org1">Org1</option>
+        <option value="Org2">Org2</option>
+        <option value="Org3">Org3</option>
+        <option value="Org4">Org4</option>
+        <option value="Org5">Org5</option>
+    </select>
+    <br><br>
+    <input type="button" name="submit" value="Submit"/>
+</form>
+
+
+
+{% endblock %}
